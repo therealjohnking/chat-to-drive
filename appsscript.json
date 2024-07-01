@@ -1,0 +1,25 @@
+{
+    "timeZone": "America/New_York",
+    
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/chat.bot",
+      "https://www.googleapis.com/auth/drive"
+    ],
+    
+    "dependencies": {
+      "enabledAdvancedServices": [
+        {
+          "userSymbol": "Chat",
+          "version": "v1",
+          "serviceId": "chat"
+        },
+        {
+          "userSymbol": "Drive",
+          "version": "v3",
+          "serviceId": "drive"
+        }
+      ]
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8"
+  }  
